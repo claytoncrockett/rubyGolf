@@ -9,8 +9,10 @@ def caesar(s,o)
     i+=1
   end
   y.join("")
-  puts y
+  print y
 end
+
+caesar("abcz",3)
 
 
 

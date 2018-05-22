@@ -11,7 +11,7 @@ def shoppingList
     i+=2
     c+=1
   end
-  h=Hash[*y.flatten(1)]
+  h=Hash[*y]
   puts h
 end
 
